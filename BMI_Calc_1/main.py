@@ -1,4 +1,5 @@
 def calculate_bmi(weight, height_cm):
+    """Function printing python version."""
     try:
         weight = float(weight)
         height = float(height_cm) / 100
@@ -15,6 +16,7 @@ def calculate_bmi(weight, height_cm):
 
 
 def main():
+    """Function printing python version."""
     try:
         weight = float(input("Введите вес (кг): "))
         height_cm = float(input("Введите рост (см): "))
